@@ -56,10 +56,10 @@ else:
 download_url = 'https://github.com/tryton-ar/citi_afip/tree/%s' % branch
 
 LINKS = {
-    'trytonar_party_ar': ('git+https://github.com/tryton-ar/'
+    'trytonar_party_ar': ('git+https://github.com/rollyar/'
         'party_ar.git@%s#egg=trytonar_party_ar-%s' %
         (branch, series)),
-    'trytonar_account_invoice_ar': ('git+https://github.com/tryton-ar/'
+    'trytonar_account_invoice_ar': ('git+https://github.com/rollyar/'
         'account_invoice_ar.git@%s#egg=trytonar_account_invoice_ar-%s' %
         (branch, series)),
     }
@@ -82,7 +82,7 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     description='Tryton module to export Compras y Ventas RG3685 (ex CITI)',
     long_description=read('README.rst'),
     author='tryton-ar',
-    url='https://github.com/tryton-ar/citi_afip',
+    url='https://github.com/rollyar/citi_afip',
     download_url=download_url,
     project_urls={
         "Bug Tracker": 'https://bugs.tryton.org/',
